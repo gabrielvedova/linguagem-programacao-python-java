@@ -6,4 +6,4 @@ for i in range(anos):
     salario_atual += salario_atual*aumento_percentual
     aumento_percentual = aumento_percentual*2
 
-print(salario_atual)
+print(f"R${salario_atual}")
